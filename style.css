@@ -248,6 +248,26 @@
         font-size: 16px;
     }
 
+    .big-h2 {
+        text-align: center;
+        padding-top: 80px;
+        font-size: 48px;
+        
+    }
+
+    .big-p {
+        
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 10px 160px;
+    }
+
+    .big-item {
+     display: flex;
+     align-items: center;
+     width: 100%;
+    }
 
     .d-flex {
         display: flex;
@@ -263,16 +283,48 @@
        
     } 
 
-    .hale {
+    /*.hale {
+        display: flex;
         height: 600px;
         background-color: green;
         border: 2px dashed black;
     }
-
+        */
     .halfa{
        border: 2px dashed white; 
     }
+   
+        
+    .star-img {
+        
+        align-items: center;
+       
+        max-width: 430px;}
+       
+    .star {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .star-text{
+        margin:auto;
+        text-align: center;
+    }
 
+    .btn-star {
+        margin-left: 30px;
+        padding: 25px;
+        border-radius: 40px;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+
+    }
+    
+    .btns {
+        background-color: #8ea1e1;
+    }
 /* --- FOOTER --- */
 
 
@@ -303,4 +355,3 @@
         color: inherit;
     }
 
- 
