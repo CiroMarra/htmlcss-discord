@@ -28,6 +28,9 @@
         border: 2px dashed black;
     }
 
+    .mar-10 {
+      margin: 0 10px;
+    }
 
     .box2 {
         max-width: 260px;
@@ -119,24 +122,37 @@
 
     
     .navbar > div {
-        border: 2px dashed black;
+        /* border: 2px dashed black; */
     }
 
     .navbar {
         display: flex;
         justify-content: space-between;
-        background-color: #daa520;
+     /*   background-color: #daa520; */
         padding: 10px 10px;
     }
     
 
     .link-group {
+        margin-top: 6px;
         text-align: center;
+        color: #fff;
+        
+
     }
 
     .login {
         text-align: end;
         padding-right: 4px;
+        color: #000;
+    }
+
+    .accedi {
+        text-align: end;
+        background-color: #fff;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 20px;
     }
 
     .logo-container {
