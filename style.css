@@ -109,20 +109,12 @@
         background-color: #23272a;
     }
 
-    .salmone {
-        background-color: #f08080;
-    }
-
-    .verde-acqua {
-        background-color: #20b2aa;
-    }
-
-    
-   /* .pink {
-        background-color: #ee82ee;
-    }
-    */
+  
 /*---- /GENERAL ---- */
+
+ ol {
+    list-style-type: none;
+ }
 
 
 
@@ -283,16 +275,7 @@
        
     } 
 
-    /*.hale {
-        display: flex;
-        height: 600px;
-        background-color: green;
-        border: 2px dashed black;
-    }
-        */
-    .halfa{
-       border: 2px dashed white; 
-    }
+  
    
         
     .star-img {
@@ -324,6 +307,7 @@
     
     .btns {
         background-color: #8ea1e1;
+        color: #fff;
     }
 /* --- FOOTER --- */
 
@@ -355,3 +339,37 @@
         color: inherit;
     }
 
+    .f-text {
+        color: #7289da;
+    }
+
+    .f-img {
+     width: 20px;
+     height: 10px;
+    }
+
+    .ita {
+        padding-left: 5px;
+        color: white;
+    }
+
+    .chevr {
+        font-size: 9px;
+    }
+
+    .salmon {
+        padding-top: 20px;
+        color: #fff;
+    }
+
+    .nlist-f {
+        color: #7289da;
+        font-weight: bolder;
+
+    }
+
+    li {
+        padding-top: 10px;
+        color: #fff;
+        font-weight: normal;
+    }
