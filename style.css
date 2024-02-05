@@ -107,11 +107,13 @@
 
 /*--- HEADER UPPER---- */
 
-    header {
-        background-color: #add8e6;
+    .jumbo {
+        background-image: url(img/jumbo.png);
+        background-size:   100% 100%;
     }
 
     .upper{
+        
         padding-block: 8px;
     }
 
@@ -144,9 +146,12 @@
 /* --- HEADER LOWER ---*/
 
     .lower {
+
         display: flex;
-        background-color: #00008b;
-    }
+    
+      /*  background-color: #00008b; */
+    } 
+
 
     .pink {
         background-color: #ee82ee;
